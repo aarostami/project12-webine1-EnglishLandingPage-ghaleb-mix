@@ -1,0 +1,58 @@
+main {
+	height: 3200px;
+	background-color: #e5e5e5;
+
+	#service {
+		margin-top: 374px;
+		h4 {
+			font-weight: 600;
+			font-size: 28px;
+			h6 {
+				font-weight: 500;
+				font-size: 17px;
+				color: #999999;
+			}
+		}
+		.card {
+			img {
+				width: 40px;
+				height: 40px;
+			}
+			.card-body {
+				padding-top: 25px;
+			}
+		}
+	}
+
+	#about {
+		padding-top: 90px;
+		img {
+			max-width: 100%;
+		}
+
+		div.row {
+			div:first-child {
+				padding-left: 0;
+			}
+			div:last-child {
+				padding-top: 56px;
+				padding-left: 56px;
+				
+				h3 {
+					width: 484px;
+					font-size: 40px;
+				}
+				ul {
+					padding-left: 1rem;
+				}
+				button {
+					margin-top: 60px;
+					padding: 9px 32px;
+					font-weight: 600;
+					font-size: 20px;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}
