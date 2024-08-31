@@ -1,10 +1,15 @@
 header {
 	height: 630px;
 	padding-top: 2rem;
+<<<<<<< HEAD
 
 	nav {
 		padding: 0 !important;
 
+=======
+	nav {
+		padding: 0 !important;
+>>>>>>> b42ccada52b36fe2dfea94abb7ddef4e08a625c1
 		a {
 			width: 110px;
 			height: 64px;
@@ -14,11 +19,17 @@ header {
 			color: #000;
 		}
 	}
+<<<<<<< HEAD
 	
 	#header {
 		position: relative;
 		margin-top: 70px;
 
+=======
+	#header {
+		position: relative;
+		margin-top: 70px;
+>>>>>>> b42ccada52b36fe2dfea94abb7ddef4e08a625c1
 		h3 {
 			font-weight: normal;
 			font-size: 40px !important;
@@ -28,7 +39,10 @@ header {
 
 		div:nth-of-type(2) {
 			padding-left: 4% !important;
+<<<<<<< HEAD
 
+=======
+>>>>>>> b42ccada52b36fe2dfea94abb7ddef4e08a625c1
 			h6 {
 				font-weight: 500;
 				font-size: 17px !important;
@@ -39,16 +53,63 @@ header {
 				font-weight: 600;
 				font-size: 20px;
 				text-transform: uppercase;
+<<<<<<< HEAD
+=======
+				padding-left: 10px;
+				transition: all .2s ease-in-out;
+
+				/* i {
+					// display: none;
+					font-size: 20px;
+					transform: scale(1.5, 1);
+					margin-right: 15px;
+					margin-left: 5px;
+					transition: all .2s ease-in-out;
+				}
+
+				&:hover i {
+					margin-right: 15px;
+				} */
+				
+				span {
+					transition: all .4s;
+				}
+
+				span::before {
+					content: "\2192";
+					font-size: 25px;
+					transition: .4s;
+					opacity: 0;
+				}
+
+				&:hover {
+					
+				}
+
+				&:hover span::before {
+					opacity: 1;
+					margin-right: 25px;
+				}
+>>>>>>> b42ccada52b36fe2dfea94abb7ddef4e08a625c1
 			}
 		}
 
 		#backvid {
 			width: 284px;
+<<<<<<< HEAD
 			height: 520px;
 			background-color: #fff;
 			position: absolute;
 			left: 12%;
 			top: 28%;
+=======
+			height: 525px;
+			background-color: #fff;
+			position: absolute;
+			left: 17.1%;
+			top: 28.6%;
+			z-index: 20;
+>>>>>>> b42ccada52b36fe2dfea94abb7ddef4e08a625c1
 		}
 
 		#vid {
@@ -57,6 +118,7 @@ header {
 			width: 880px;
 			height: 508px;
 			background-size: contain;
+<<<<<<< HEAD
 			z-index: 10;
 
 			.playbut {
@@ -64,14 +126,28 @@ header {
 				height: 96px;
 				background-color: #ffffff;
 				z-index: 20;
+=======
+			z-index: 50;
+			/* .playbut {
+				width: 96px;
+				height: 96px;
+				background-color: #fff;
+				z-index: 50;
+>>>>>>> b42ccada52b36fe2dfea94abb7ddef4e08a625c1
 				position: absolute;
 				border-radius: 50%;
 				left: 47%;
 				top: 58%;
+<<<<<<< HEAD
 
 				.playbut_in {
 					/* width: 50px;
 					height: 50px; */
+=======
+				.playbut_in {
+					// width: 50px;
+					// height: 50px;
+>>>>>>> b42ccada52b36fe2dfea94abb7ddef4e08a625c1
 					border-style: solid;
 					border-width: 0px 30px 45px 30px;
 					border-color: transparent transparent #0E73E5;
@@ -80,6 +156,26 @@ header {
 					left: 26%;
 					transform: rotate(90deg);
 				}
+<<<<<<< HEAD
+=======
+			} */
+
+			i {
+				font-size: 65px;
+				color: #fff;
+				background-color: #0e73e5;
+				position: absolute;
+				border-radius: 50%;
+				left: 50%;
+				top: 58%;
+				transition: all 0.3s ease-in 0.2s;
+
+				&:hover {
+					transform: scale(1.5);
+					color: #0e73e5;
+					background-color: #fff;
+				}
+>>>>>>> b42ccada52b36fe2dfea94abb7ddef4e08a625c1
 			}
 		}
 	}
